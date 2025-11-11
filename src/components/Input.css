@@ -1,0 +1,49 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.input-group input,
+.input-group select {
+  padding: 0.75rem 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.input-group input.input-error,
+.input-group select.input-error {
+  border-color: #f5576c;
+}
+
+.input-group input.input-error:focus,
+.input-group select.input-error:focus {
+  box-shadow: 0 0 0 3px rgba(245, 87, 108, 0.1);
+}
+
+.error-text {
+  color: #f5576c;
+  font-size: 0.85rem;
+  margin-top: -0.25rem;
+}
+
+
+
